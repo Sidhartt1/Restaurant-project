@@ -1,0 +1,130 @@
+section
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+
+
+.herorow
+{
+    
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: larger;
+}
+
+.overlay
+{
+    position: relative;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    z-index: 2;
+}
+
+.herocon
+{
+
+}
+
+#herosec::after
+{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(240, 255, 255, 0.745);
+    z-index: -1;
+
+}
+
+
+.btn
+{
+    border-radius: 100px;
+    border-color:rgb(237, 237, 168);
+    font-weight: bold;
+    border-width: 2px;
+    color: rgb(243, 177, 111);
+    background-color: azure;
+    transition: all 0.5s ease;
+}
+
+.btn:hover
+{
+    background-color: rgb(243, 177, 111);
+    border-color: transparent;
+}
+
+
+
+
+
+.navbar
+{
+    transition: all 0.5s ease;
+}
+
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: rgb(199, 105, 68);
+}
+
+.navbar-light .navbar-nav .nav-link
+{
+    color: rgb(30, 28, 28);
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-right: 20px;
+}
+
+
+.navbar-light .navbar-brand
+{
+    color: rgb(30, 28, 28);
+    font-size: 25px;
+    letter-spacing: 2px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.herost
+{
+    margin-top: 90px ;
+}
+
+.col-img:hover
+{
+    width: 100%;
+    transform: scale(1.1);
+}
+
+.feacon
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+html
+{
+    scroll-behavior: smooth;
+    transition: all 0.6s ease-in;
+}
+
+.abcon
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.abrow
+{
+    height: 50px;
+}
